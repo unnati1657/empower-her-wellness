@@ -1,0 +1,63 @@
+<resources>
+
+    <string name="app_name">Empower Her Wellness</string>
+    <string name="welcome_message">Welcome to\nEmpower Her\nWellness</string>
+    <!-- Add this line -->
+    <string name="get_started">Get Started</string>
+
+    <string name="btn_explore_more">Explore More</string>
+    <string name="btn_quotes">Quotes</string>
+    <string name="btn_songs">Songs</string>
+    <string name="btn_videos_stash">Videos Stash</string>
+
+
+    <string name="pregnancy_description">Pregnancy related info</string>
+    <string name="mental_health_description">Mental health related info</string>
+    <string name="periods_description">Periods related info</string>
+    <string name="pcod_description">PCOD related info</string>
+    <string name="pregnancy">Pregnancy</string>
+    <string name="mental_health">Mental Health</string>
+    <string name="menstruation">Menstruation</string>
+    <string name="pcod">PCOD</string>
+    <string name="women_health">Women Health</string>
+
+
+    <!-- Array of Quotes -->
+    <string-array name="motivational_quotes">
+        <item>"You are stronger than you think."</item>
+        <item>"Believe in yourself and all that you are."</item>
+        <item>"Every day is a new beginning."</item>
+        <item>"You are capable of amazing things."</item>
+        <item>"Your only limit is your mind."</item>
+        <item>"The only limit to our realization of tomorrow is our doubts of today.”</item>
+    </string-array>
+
+
+    <string name="precautions_title">Precautions</string>
+    <string name="precautions_text">1. Wash your hands regularly with soap and water.\n2. Maintain social distancing to avoid close contact with others.\n3. Wear a mask in crowded places.\n4. Avoid touching your face, especially your eyes, nose, and mouth.\n5. Keep your environment clean and sanitized.</string>
+
+    <string name="symptoms_title">Symptoms</string>
+    <string name="symptoms_text">Common symptoms include:\n1. Fever or chills\n2. Cough\n3. Shortness of breath or difficulty breathing\n4. Fatigue\n5. Muscle or body aches\n6. Headache\n7. New loss of taste or smell\n8. Sore throat\n9. Congestion or runny nose\n10. Nausea or vomiting\n11. Diarrhea</string>
+
+    <string name="about_title">About</string>
+    <string name="about_text">This application is designed to provide users with important health information regarding symptoms, precautions, and guidance related to various health topics. It aims to raise awareness and promote healthy practices among users. For more information, please consult healthcare professionals.</string>
+
+
+    <string name="button_more_info2">More info</string>
+
+    <string name="explore_more">Explore More</string>
+    <string name="doctor_contact4">Contact</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
+
+
+
+
+
+
+
+
+

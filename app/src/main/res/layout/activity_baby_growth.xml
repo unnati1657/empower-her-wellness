@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mybg"
+    android:padding="16dp"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Baby Growth Stages"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:paddingBottom="20dp"
+            android:gravity="center" />
+
+        <!-- Week 1-4 Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_bg"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"
+            android:elevation="6dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Weeks 1-4: The baby is just a tiny ball of cells!"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🌟 Fun Fact: At just 4 weeks, the heart starts to beat!"
+                android:textSize="14sp"
+                android:textColor="@color/teal_700"
+                android:paddingTop="6dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="💡 Tip: Stay hydrated and take prenatal vitamins!"
+                android:textSize="14sp"
+                android:textColor="@color/blue"
+                android:paddingTop="4dp"/>
+
+
+        </LinearLayout>
+
+        <!-- Week 5-8 Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_bg"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"
+            android:elevation="6dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Weeks 5-8: Heart starts beating, and limbs begin to form."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🌟 Fun Fact: By 8 weeks, the baby has tiny fingers and toes!"
+                android:textSize="14sp"
+                android:textColor="@color/teal_700"
+                android:paddingTop="6dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="💡 Tip: Eat foods rich in folic acid for baby’s development!"
+                android:textSize="14sp"
+                android:textColor="@color/blue"
+                android:paddingTop="4dp"/>
+
+        </LinearLayout>
+
+        <!-- Week 9-12 Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_bg"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"
+            android:elevation="6dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Weeks 9-12: Baby has tiny fingers, toes, and even fingerprints!"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🌟 Fun Fact: At 12 weeks, the baby can make a fist!"
+                android:textSize="14sp"
+                android:textColor="@color/teal_700"
+                android:paddingTop="6dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="💡 Tip: Light exercise helps reduce stress during pregnancy!"
+                android:textSize="14sp"
+                android:textColor="@color/blue"
+                android:paddingTop="4dp"/>
+
+        </LinearLayout>
+
+        <!-- Week 13-16 Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_bg"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"
+            android:elevation="6dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Weeks 13-16: The fetus can move, and the mother may start to feel those movements."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🌟 Fun Fact: By week 14, the baby can suck their thumb and even make facial expressions!"
+                android:textSize="14sp"
+                android:textColor="@color/teal_700"
+                android:paddingTop="6dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="💡 Tip: Eating iron-rich foods helps support your baby's rapid growth and prevents anemia."
+                android:textSize="14sp"
+                android:textColor="@color/blue"
+                android:paddingTop="4dp"/>
+
+
+        </LinearLayout>
+
+        <!-- Week 17-20 Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_bg"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"
+            android:elevation="6dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Weeks 17-20: The fetus's senses (hearing, vision, touch) begin to develop, and the mother can often feel the baby's movements."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🌟 Fun Fact: By week 19, the baby can hear sounds from the outside world, including the mother's voice!"
+                android:textSize="14sp"
+                android:textColor="@color/teal_700"
+                android:paddingTop="6dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="💡 Tip: Talking or playing soft music can help your baby become familiar with your voice before birth!"
+                android:textSize="14sp"
+                android:textColor="@color/blue"
+                android:paddingTop="4dp"/>
+
+        </LinearLayout>
+
+        <!-- Week 21-24 Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_bg"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"
+            android:elevation="6dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Weeks 21-24: The fetus's skin becomes thinner, and hair starts to grow."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🌟 Fun Fact: By week 23, your baby can recognize certain sounds and even respond with movements!"
+                android:textSize="14sp"
+                android:textColor="@color/teal_700"
+                android:paddingTop="6dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="💡 Tip: Staying hydrated and eating nutrient-rich foods help support healthy skin and hair growth for your baby."
+                android:textSize="14sp"
+                android:textColor="@color/blue"
+                android:paddingTop="4dp"/>
+
+        </LinearLayout>
+
+        <!-- Week 25-27 Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_bg"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"
+            android:elevation="6dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Weeks 25-27: The fetus's lungs continue to develop, and the baby can respond to sounds."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🌟 Fun Fact: By week 26, your baby may begin to open their eyes and respond to light from outside the womb!"
+                android:textSize="14sp"
+                android:textColor="@color/teal_700"
+                android:paddingTop="6dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="💡 Tip: Gentle belly massages and relaxation exercises can help strengthen the bond between you and your baby!"
+                android:textSize="14sp"
+                android:textColor="@color/blue"
+                android:paddingTop="4dp"/>
+
+        </LinearLayout>
+
+        <!-- Week 28-32 Section -->
+        <!-- Week 28-32 Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_bg"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"
+            android:elevation="6dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Weeks 28-32: The baby gains weight, lungs mature, and the nervous system regulates body functions."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🌟 Fun Fact: By week 30, your baby can dream while sleeping inside the womb!"
+                android:textSize="14sp"
+                android:textColor="@color/teal_700"
+                android:paddingTop="6dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="💡 Tip: Practicing deep breathing and prenatal yoga can help reduce stress and improve oxygen flow to your baby."
+                android:textSize="14sp"
+                android:textColor="@color/blue"
+                android:paddingTop="4dp"/>
+
+        </LinearLayout>
+
+        <!-- Week 37-40 Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_bg"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"
+            android:elevation="6dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Weeks 33-36: The baby prepares for birth, lungs mature, and head-down position forms."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🌟 Fun Fact: By week 34, your baby can recognize your voice and may respond to familiar sounds with movements!"
+                android:textSize="14sp"
+                android:textColor="@color/teal_700"
+                android:paddingTop="6dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="💡 Tip: Sleeping on your left side improves blood flow to your baby and reduces swelling."
+                android:textSize="14sp"
+                android:textColor="@color/blue"
+                android:paddingTop="4dp"/>
+
+        </LinearLayout>
+
+        <!-- Week 37-40 Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_bg"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"
+            android:elevation="6dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Weeks 37-40: The fetus is full-term, and the baby is ready for birth."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🌟 Fun Fact: By week 37, your baby has developed a sleep-wake cycle and may even have dreams!"
+                android:textSize="14sp"
+                android:textColor="@color/teal_700"
+                android:paddingTop="6dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="💡 Tip: Staying calm and practicing deep breathing can help during labor and make the birthing process smoother."
+                android:textSize="14sp"
+                android:textColor="@color/blue"
+                android:paddingTop="4dp"/>
+
+        </LinearLayout>
+      
+    </LinearLayout>
+
+</ScrollView>
+

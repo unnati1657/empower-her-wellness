@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@drawable/mybg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Question 1 -->
+        <TextView
+            android:id="@+id/question_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="When was the first day of your last period? 🗓️"
+            android:textSize="18sp"
+            android:textColor="#00796B"
+            android:layout_marginBottom="20dp" />
+
+        <RadioGroup
+            android:id="@+id/answers_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="#AAFFFFFF"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <RadioButton
+                android:id="@+id/answer_1_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Less than a week ago 🤔"
+                android:textColor="#004D40" />
+
+            <RadioButton
+                android:id="@+id/answer_1_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1-2 weeks ago ⏳"
+                android:textColor="#004D40" />
+
+            <RadioButton
+                android:id="@+id/answer_1_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="More than 2 weeks ago 🕰️"
+                android:textColor="#004D40" />
+        </RadioGroup>
+
+        <!-- Question 2 -->
+        <TextView
+            android:id="@+id/question_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How long does your period usually last? ⏳"
+            android:textSize="18sp"
+            android:textColor="#00796B"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp" />
+
+        <RadioGroup
+            android:id="@+id/answers_group_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="#AAFFFFFF"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <RadioButton
+                android:id="@+id/answer_2_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1-3 days 🕓"
+                android:textColor="#004D40" />
+
+            <RadioButton
+                android:id="@+id/answer_2_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4-6 days 🗓️"
+                android:textColor="#004D40" />
+
+            <RadioButton
+                android:id="@+id/answer_2_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7 days or more 💪"
+                android:textColor="#004D40" />
+        </RadioGroup>
+
+        <!-- Question 3 -->
+        <TextView
+            android:id="@+id/question_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Is your cycle usually regular? 🔄"
+            android:textSize="18sp"
+            android:textColor="#00796B"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp" />
+
+        <RadioGroup
+            android:id="@+id/answers_group_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="#AAFFFFFF"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <RadioButton
+                android:id="@+id/answer_3_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes, it's regular 🔄"
+                android:textColor="#004D40" />
+
+            <RadioButton
+                android:id="@+id/answer_3_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No, it's irregular 🚫"
+                android:textColor="#004D40" />
+        </RadioGroup>
+
+        <!-- Question 4 -->
+        <TextView
+            android:id="@+id/question_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do you experience PMS symptoms? 💭"
+            android:textSize="18sp"
+            android:textColor="#00796B"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp" />
+
+        <RadioGroup
+            android:id="@+id/answers_group_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="#AAFFFFFF"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <RadioButton
+                android:id="@+id/answer_4_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes, often 😣"
+                android:textColor="#004D40" />
+
+            <RadioButton
+                android:id="@+id/answer_4_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sometimes 😌"
+                android:textColor="#004D40" />
+
+            <RadioButton
+                android:id="@+id/answer_4_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rarely 😊"
+                android:textColor="#004D40" />
+        </RadioGroup>
+
+        <!-- Question 5 -->
+        <TextView
+            android:id="@+id/question_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do you use any menstrual products? 🛒"
+            android:textSize="18sp"
+            android:textColor="#00796B"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp" />
+
+        <RadioGroup
+            android:id="@+id/answers_group_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="#AAFFFFFF"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <RadioButton
+                android:id="@+id/answer_5_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes, pads 🩲"
+                android:textColor="#004D40" />
+
+            <RadioButton
+                android:id="@+id/answer_5_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes, tampons 🩸"
+                android:textColor="#004D40" />
+
+            <RadioButton
+                android:id="@+id/answer_5_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes, menstrual cup 🫣"
+                android:textColor="#004D40" />
+        </RadioGroup>
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit 📤"
+            android:layout_marginTop="2dp"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,568 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/mybg">
+
+        <!-- Song 1 -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:elevation="4dp"
+            android:background="@android:color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <!-- Song Icon -->
+                <ImageView
+                    android:id="@+id/song_icon1"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/tum_hi_ho"
+                    android:contentDescription="Song Icon1"
+                    android:layout_marginEnd="18dp"
+                    android:onClick="openLink" />
+
+                <!-- Song Title and Description -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/song_title1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tum Hi Ho"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/song_description1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Arijit Singh"
+                        android:textSize="14sp"
+                        android:textColor="@android:color/darker_gray" />
+                </LinearLayout>
+
+                <!-- Play Button -->
+                <Button
+                    android:id="@+id/btn_play_song1"
+                    android:layout_width="100dp"
+                    android:layout_height="48dp"
+                    android:text="Play"
+                    android:textSize="12sp"
+                    android:padding="4dp"
+                    android:background="@android:color/black"
+                android:textColor="@android:color/white"
+                    />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Song 2 -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:elevation="4dp"
+            android:background="@android:color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <!-- Song Icon -->
+                <ImageView
+                    android:id="@+id/song_icon2"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/tere_ban_jaunga"
+                    android:contentDescription="Song Icon2"
+                    android:layout_marginEnd="18dp" />
+
+                <!-- Song Title and Description -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/song_title2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tera Ban Jaunga"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/song_description2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tulsi Kumar"
+                        android:textSize="14sp"
+                        android:textColor="@android:color/darker_gray" />
+                </LinearLayout>
+
+                <!-- Play Button -->
+                <Button
+                    android:id="@+id/btn_play_song2"
+                    android:layout_width="100dp"
+                    android:layout_height="48dp"
+                    android:text="Play"
+                    android:textSize="12sp"
+                    android:padding="4dp"
+                    android:background="@android:color/black"
+                android:textColor="@android:color/white" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:elevation="4dp"
+            android:background="@android:color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <!-- Song Icon -->
+                <ImageView
+                    android:id="@+id/song_icon3"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/tum_mile"
+                    android:contentDescription="Song Icon3"
+                    android:layout_marginEnd="18dp" />
+
+                <!-- Song Title and Description -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/song_title3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tum Mile"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/song_description3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pritam, Javed Ali"
+                        android:textSize="14sp"
+                        android:textColor="@android:color/darker_gray" />
+                </LinearLayout>
+
+                <!-- Play Button -->
+                <Button
+                    android:id="@+id/btn_play_song3"
+                    android:layout_width="100dp"
+                    android:layout_height="48dp"
+                    android:text="Play"
+                    android:textSize="12sp"
+                    android:padding="4dp"
+                    android:background="@android:color/black"
+                    android:textColor="@android:color/white"
+                    />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:elevation="4dp"
+            android:background="@android:color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <!-- Song Icon -->
+                <ImageView
+                    android:id="@+id/song_icon4"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/ae_dil_hai_mushkil"
+                    android:contentDescription="Song Icon4"
+                    android:layout_marginEnd="18dp" />
+
+                <!-- Song Title and Description -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/song_title4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ae Dil Hai Mushkil"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/song_description4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pritam, Arijit Singh"
+                        android:textSize="14sp"
+                        android:textColor="@android:color/darker_gray" />
+                </LinearLayout>
+
+                <!-- Play Button -->
+                <Button
+                    android:id="@+id/btn_play_song4"
+                    android:layout_width="100dp"
+                    android:layout_height="48dp"
+                    android:text="Play"
+                    android:textSize="12sp"
+                    android:padding="4dp"
+                    android:background="@android:color/black"
+                    android:textColor="@android:color/white"
+                    />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:elevation="4dp"
+            android:background="@android:color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <!-- Song Icon -->
+                <ImageView
+                    android:id="@+id/song_icon5"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/blinding_lights"
+                    android:contentDescription="Song Icon5"
+                    android:layout_marginEnd="18dp" />
+
+                <!-- Song Title and Description -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/song_title5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Blinding Lights"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/song_description5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" The Weeknd"
+                        android:textSize="14sp"
+                        android:textColor="@android:color/darker_gray" />
+                </LinearLayout>
+
+                <!-- Play Button -->
+                <Button
+                    android:id="@+id/btn_play_song5"
+                    android:layout_width="100dp"
+                    android:layout_height="48dp"
+                    android:text="Play"
+                    android:textSize="12sp"
+                    android:padding="4dp"
+                    android:background="@android:color/black"
+                    android:textColor="@android:color/white"
+                    />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:elevation="4dp"
+            android:background="@android:color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <!-- Song Icon -->
+                <ImageView
+                    android:id="@+id/song_icon6"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/brown_munde"
+                    android:contentDescription="Song Icon6"
+                    android:layout_marginEnd="18dp" />
+
+                <!-- Song Title and Description -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/song_title6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Brown Munde"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/song_description6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="AP Dhillon, Gurinder Gill"
+                        android:textSize="14sp"
+                        android:textColor="@android:color/darker_gray" />
+                </LinearLayout>
+
+                <!-- Play Button -->
+                <Button
+                    android:id="@+id/btn_play_song6"
+                    android:layout_width="100dp"
+                    android:layout_height="48dp"
+                    android:text="Play"
+                    android:textSize="12sp"
+                    android:padding="4dp"
+                    android:background="@android:color/black"
+                    android:textColor="@android:color/white"
+                    />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:elevation="4dp"
+            android:background="@android:color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <!-- Song Icon -->
+                <ImageView
+                    android:id="@+id/song_icon7"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/shayad"
+                    android:contentDescription="Song Icon7"
+                    android:layout_marginEnd="18dp" />
+
+                <!-- Song Title and Description -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/song_title7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Shayad"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/song_description7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pritam, Arijit Singh"
+                        android:textSize="14sp"
+                        android:textColor="@android:color/darker_gray" />
+                </LinearLayout>
+
+                <!-- Play Button -->
+                <Button
+                    android:id="@+id/btn_play_song7"
+                    android:layout_width="100dp"
+                    android:layout_height="48dp"
+                    android:text="Play"
+                    android:textSize="12sp"
+                    android:padding="4dp"
+                    android:background="@android:color/black"
+                    android:textColor="@android:color/white"
+                    />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:elevation="4dp"
+            android:background="@android:color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <!-- Song Icon -->
+                <ImageView
+                    android:id="@+id/song_icon8"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/ranjha"
+                    android:contentDescription="Song Icon8"
+                    android:layout_marginEnd="18dp" />
+
+                <!-- Song Title and Description -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/song_title8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ranjha"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/song_description8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jasleen Royal,"
+                        android:textSize="14sp"
+                        android:textColor="@android:color/darker_gray" />
+                </LinearLayout>
+
+                <!-- Play Button -->
+                <Button
+                    android:id="@+id/btn_play_song8"
+                    android:layout_width="100dp"
+                    android:layout_height="48dp"
+                    android:text="Play"
+                    android:textSize="12sp"
+                    android:padding="4dp"
+                    android:background="@android:color/black"
+                    android:textColor="@android:color/white"
+                    />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:elevation="4dp"
+            android:background="@android:color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <!-- Song Icon -->
+                <ImageView
+                    android:id="@+id/song_icon9"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/jo_tum_mere_ho"
+                    android:contentDescription="Song Icon9"
+                    android:layout_marginEnd="18dp" />
+
+                <!-- Song Title and Description -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/song_title9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jo Tum Mere Ho"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/song_description9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Anuv Jain"
+                        android:textSize="14sp"
+                        android:textColor="@android:color/darker_gray" />
+                </LinearLayout>
+
+                <!-- Play Button -->
+                <Button
+                    android:id="@+id/btn_play_song9"
+                    android:layout_width="100dp"
+                    android:layout_height="48dp"
+                    android:text="Play"
+                    android:textSize="12sp"
+                    android:padding="4dp"
+                    android:background="@android:color/black"
+                    android:textColor="@android:color/white"
+                    />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>

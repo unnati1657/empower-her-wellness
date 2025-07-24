@@ -1,0 +1,59 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.empowerherwellness">
+
+        <!-- Add internet permission -->
+        <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION"/>
+
+
+        <application
+            android:label="@string/app_name"
+            android:icon="@mipmap/ic_launcher"
+            android:theme="@style/Theme.EmpowerHerWellness">
+
+            <!-- MainActivity (Launcher activity) -->
+            <activity
+                android:name=".MainActivity"
+                android:exported="true">
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN" />
+                    <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+            </activity>
+
+            <!-- Other activities -->
+            <activity android:name=".MentalHealthDetailActivity" android:exported="false" />
+            <activity android:name=".PregnancyDetailActivity" />
+            <activity android:name=".DoDontsActivity" />
+            <activity android:name=".SplashActivity" android:exported="true">
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN" />
+                    <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+            </activity>
+            <activity android:name=".ContentActivity" android:exported="false" />
+
+            <!-- SymptomInfoActivity where you'll add the "Learn More" functionality -->
+            <activity android:name=".SymptomInfoActivity" />
+            <activity android:name=".PeriodsDetailActivity" />
+            <activity android:name=".MenstrualCycleQuizActivity" />
+
+
+            <activity android:name=".ExerciseActivity" />
+            <activity android:name=".BabyGrowthActivity"/>
+
+            <activity android:name=".SongActivity" />
+           <activity android:name=".QuotesActivity"/>
+            <activity android:name=".ResultsActivity" />
+            <activity android:name=".NatureSoundsActivity" />
+            <activity android:name=".UserDetailActivity" />
+            <activity android:name=".RelaxationActivity" />
+            <activity android:name=".RecommendationsActivity" />
+            <activity android:name=".MealsActivity" />
+            <activity android:name=".FeedbackActivity" />
+            <activity android:name=".ThankYouActivity"/>
+            <activity android:name=".WorkoutVideosActivity"/>
+
+        </application>
+
+    </manifest>

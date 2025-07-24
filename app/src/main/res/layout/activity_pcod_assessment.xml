@@ -1,0 +1,156 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="👩‍⚕️ PCOD Health Tracker"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="15dp"/>
+
+        <!-- Card Container -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:elevation="5dp"
+            android:padding="20dp"
+            android:orientation="vertical"
+            android:layout_marginBottom="15dp">
+
+            <!-- Symptoms Dropdown -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🔍 Menstrual Irregularities:"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"/>
+
+            <Spinner
+                android:id="@+id/spinner_menstrual_irregularities"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:entries="@array/menstrual_irregularities"
+                android:background="@drawable/input_field_bg"
+                android:padding="16dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="💆‍♀️ Hormonal and Skin Issues:"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="5dp"/>
+
+            <Spinner
+                android:id="@+id/spinner_hormonal_skin_issues"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:entries="@array/hormonal_issues"
+                android:background="@drawable/input_field_bg"
+                android:padding="16dp"/>
+            <!-- Weight Input -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="⚖ Enter Your Weight (kg):"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"/>
+
+            <EditText
+                android:id="@+id/edit_weight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Weight in kg"
+                android:inputType="numberDecimal"
+                android:background="@drawable/input_field_bg"
+                android:padding="12dp"/>
+
+            <!-- Height Input -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="📏 Enter Your Height (cm):"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"/>
+
+            <EditText
+                android:id="@+id/edit_height"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Height in cm"
+                android:inputType="numberDecimal"
+                android:background="@drawable/input_field_bg"
+                android:padding="12dp"/>
+
+            <!-- Activity Level Dropdown -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🏃‍♀️ Select Your Activity Level:"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"/>
+
+            <Spinner
+                android:id="@+id/spinner_activity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:entries="@array/activity_levels"
+                android:background="@drawable/input_field_bg"
+                android:padding="16dp"/>
+
+            <!-- Diet Preference -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🥗 Select Your Diet Preference:"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"/>
+
+            <Spinner
+                android:id="@+id/spinner_diet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:entries="@array/diet_preferences"
+                android:background="@drawable/input_field_bg"
+                android:padding="16dp"/>
+        </LinearLayout>
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit and Get Recommendations"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/black"
+            android:layout_marginTop="20dp"
+            android:padding="15dp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+</ScrollView>

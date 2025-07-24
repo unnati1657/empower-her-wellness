@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@android:color/white">
+
+    <!-- ImageView at the top -->
+    <ImageView
+        android:id="@+id/mental_health_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/stressbusterimage"
+    android:contentDescription="Mental Health Image"
+    android:layout_gravity="center_horizontal"
+    android:adjustViewBounds="true"
+    android:scaleType="centerCrop"
+    android:layout_marginBottom="32dp" />
+
+    <!-- Quotes Button with light blue background -->
+
+    <!-- Songs Button with light green background -->
+    <Button
+        android:id="@+id/btn_quotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quotes"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:backgroundTint="#87CEEB"
+        android:layout_marginBottom="12dp"
+        android:onClick="openQuoteTypes" />
+
+
+    <Button
+        android:id="@+id/btn_songs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Songs"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:backgroundTint="#FFA07A"
+    android:layout_marginBottom="12dp" />
+
+
+    <Button
+        android:id="@+id/btn_videos_stash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Relaxation"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:backgroundTint="#98FB98"
+    android:layout_marginBottom="12dp" />
+
+    <!-- Explore More Button with light yellow background -->
+    <Button
+        android:id="@+id/btn_explore_more"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Explore More"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:backgroundTint="#FFD700"
+    />
+
+</LinearLayout>

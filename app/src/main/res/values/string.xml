@@ -1,0 +1,43 @@
+<resources>
+    <string-array name="menstrual_irregularities">
+        <item>Irregular periods</item>
+        <item>Skipped or absent periods</item>
+        <item>Heavy menstrual bleeding</item>
+    </string-array>
+    <style name="CalendarDateStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#6A3F86</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="WeekdayStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#8C759F</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="HeaderStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#4A2A66</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <string-array name="hormonal_issues">
+        <item>Excessive hair growth</item>
+        <item>Acne</item>
+        <item>Oily skin</item>
+        <item>Skin darkening</item>
+    </string-array>
+    <string-array name="activity_levels">
+        <item>Lightly Active</item>
+        <item>Moderately Active</item>
+        <item>Very Active</item>
+    </string-array>
+
+    <string-array name="diet_preferences">
+        <item>Vegetarian</item>
+        <item>Non-Vegetarian</item>
+        <item>Vegan</item>
+        <item>Keto</item>
+    </string-array>
+</resources>
